@@ -1,8 +1,8 @@
-import React from 'react'
+import CssWorkLayout from '@/components/CssWork/CssWorkLayout'
 
 export default function CssPage() {
 
     return (
-        <div>page</div>
+        <CssWorkLayout />
     )
 }

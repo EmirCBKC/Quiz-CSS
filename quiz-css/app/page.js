@@ -1,11 +1,8 @@
-import Link from "next/link";
+import App from "@/components/Home/App";
 
 export default function Home() {
 
   return (
-    <div>
-      <Link href="/css-calismasi">CSS Çalışması</Link>
-      <Link href="/quiz-app">Javascript Çalışması(Quiz App)</Link>
-    </div>
+    <App />
   );
 }
