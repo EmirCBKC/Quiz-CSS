@@ -5,6 +5,7 @@ import Cards from './Cards';
 import JoinUs from './JoinUs';
 import Slider from './Slider';
 import GrowYourCollection from './GrowYourCollection';
+import Map from './Map';
 
 export default function CssWorkLayout() {
 
@@ -16,6 +17,7 @@ export default function CssWorkLayout() {
             <JoinUs />
             <Slider />
             <GrowYourCollection />
+            <Map />
         </main>
     )
 }
