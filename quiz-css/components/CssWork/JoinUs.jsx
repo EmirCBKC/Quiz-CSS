@@ -21,7 +21,7 @@ export default function JoinUs() {
 
                 <Col xxl={7} xl={4} lg={4} md={3} sm={4} xs={8} className={Style.right}>
                     <div className={Style.layer1}>
-                        <Image className={Style.photo1} src="/joinus/Rectangle5.png" width={500} height={500} quality={99} alt="video" />
+                        <Image className={Style.photo1} src="/joinus/Rectangle5.png" width={500} height={500} quality={99} alt="shape" />
                     </div>
 
                     <div className={Style.layer2}>
@@ -29,23 +29,23 @@ export default function JoinUs() {
                     </div>
 
                     <div className={Style.layer3}>
-                        <Image className={Style.photo3} src="/joinus/Rectangle1.png" width={500} height={500} quality={99} alt="video" />
+                        <Image className={Style.photo3} src="/joinus/Rectangle1.png" width={500} height={500} quality={99} alt="shape" />
                     </div>
 
                     <div className={Style.layer4}>
-                        <Image className={Style.photo4} src="/joinus/Rectangle4.png" width={500} height={500} quality={99} alt="video" />
+                        <Image className={Style.photo4} src="/joinus/Rectangle4.png" width={500} height={500} quality={99} alt="shape" />
                     </div>
 
                     <div className={Style.layer5}>
-                        <Image className={Style.photo5} src="/joinus/Rectangle6.png" width={500} height={500} quality={99} alt="video" />
+                        <Image className={Style.photo5} src="/joinus/Rectangle6.png" width={500} height={500} quality={99} alt="shape" />
                     </div>
 
                     <div className={Style.layer6}>
-                        <Image className={Style.photo6} src="/joinus/Rectangle3.png" width={500} height={500} quality={99} alt="video" />
+                        <Image className={Style.photo6} src="/joinus/Rectangle3.png" width={500} height={500} quality={99} alt="shape" />
                     </div>
 
                     <div className={Style.layer7}>
-                        <Image className={Style.photo7} src="/joinus/Rectangle2.png" width={500} height={500} quality={99} alt="video" />
+                        <Image className={Style.photo7} src="/joinus/Rectangle2.png" width={500} height={500} quality={99} alt="shape" />
                     </div>
                 </Col>
             </Row>

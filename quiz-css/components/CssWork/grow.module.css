@@ -1,0 +1,128 @@
+.container {
+    width: 100%;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("/grow/Waves.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.row {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(15, 23, 42);
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(15, 23, 42);
+}
+
+.row2 {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.left {
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.btn {
+    background: none;
+    border: none;
+    font-size: 22.5px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(15, 23, 42);
+    padding: 1rem;
+}
+
+.btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.icon {
+    margin-right: 1rem;
+    font-size: 27px;
+    font-weight: 600;
+    color: rgb(15, 23, 42);
+}
+
+.iconHover {
+    margin-left: 1rem;
+}
+
+.right {
+    height: 28rem;
+    display: flex;
+}
+
+.layer1 {
+    position: absolute;
+    z-index: 999999;
+    width: 70rem;
+    height: 35rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.photo1 {
+    width: 22rem;
+    height: 22rem;
+}
+
+.layer2 {
+    position: relative;
+    z-index: 9999;
+    width: 70rem;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-right: 9rem;
+    background-color: rgba(189, 199, 0, 0);
+}
+
+.photo2 {
+    width: 55rem;
+    height: 32rem;
+}
+
+.layer3 {
+    position: absolute;
+    z-index: 99;
+    width: 70rem;
+    height: 35rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.photo3 {
+    width: 55rem;
+    height: 29rem;
+}

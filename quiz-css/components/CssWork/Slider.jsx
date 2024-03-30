@@ -53,8 +53,6 @@ const Slider = () => {
         }
     };
 
-    console.log(offset);
-
     return (
         <div className={Style.container}>
             <Row>
