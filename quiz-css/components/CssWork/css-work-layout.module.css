@@ -5,4 +5,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    opacity: 0;
+    animation: opacityAni ease-in-out 1s forwards;
+}
+
+@keyframes opacityAni {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
