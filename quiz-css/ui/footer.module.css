@@ -1,0 +1,109 @@
+.footer {
+    width: 100%;
+    height: 35rem;
+    background-color: rgb(15, 23, 42);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.up {
+    width: 90%;
+}
+
+.title {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.li {
+    list-style: none;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+.liLink {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 4rem;
+}
+
+.photo {
+    width: 8rem;
+    height: 2.5rem;
+}
+
+.photo2 {
+    width: 9.5rem;
+    height: 2.7rem;
+}
+
+.ulIcons {
+    width: 9rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.iconLink {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.border {
+    width: 90%;
+    height: 0.1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background-color: rgb(51, 65, 85);
+}
+
+.down {
+    width: 90%;
+}
+
+.copyRight {
+    color: rgba(255, 255, 255, 0.718);
+}
+
+.pol {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content {
+    width: 40rem;
+    height: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ulPolicy {
+    width: 18rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
