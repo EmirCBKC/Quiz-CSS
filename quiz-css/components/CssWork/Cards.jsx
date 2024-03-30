@@ -51,7 +51,7 @@ export default function Cards() {
                     </div>
 
                     <Card className={Style.card}>
-                        <Image className={Style.photo} src="/cards/Picture.png" width={500} height={500} quality={99} alt="shoe" />
+                        <Image className={Style.photo} src="/cards/Picture(1).png" width={500} height={500} quality={99} alt="shoe" />
                         <Card.Body className={Style.cardBody}>
                             <Card.Title className={Style.cardTitle}>Title</Card.Title>
                             <Card.Text className={Style.cardText}>
@@ -75,7 +75,7 @@ export default function Cards() {
                     </div>
 
                     <Card className={Style.card}>
-                        <Image className={Style.photo} src="/cards/Picture.png" width={500} height={500} quality={99} alt="shoe" />
+                        <Image className={Style.photo} src="/cards/Picture(2).png" width={500} height={500} quality={99} alt="shoe" />
                         <Card.Body className={Style.cardBody}>
                             <Card.Title className={Style.cardTitle}>Title</Card.Title>
                             <Card.Text className={Style.cardText}>
