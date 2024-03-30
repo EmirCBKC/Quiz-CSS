@@ -2,6 +2,7 @@ import Navbar from '@/ui/Navbar';
 import Header from './Header';
 import Style from "./css-work-layout.module.css";
 import Cards from './Cards';
+import JoinUs from './JoinUs';
 
 export default function CssWorkLayout() {
 
@@ -10,6 +11,7 @@ export default function CssWorkLayout() {
             <Navbar />
             <Header />
             <Cards />
+            <JoinUs />
         </main>
     )
 }

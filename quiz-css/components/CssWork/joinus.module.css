@@ -1,0 +1,175 @@
+.container {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    width: 80%;
+    height: auto;
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.left {
+    height: 38rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 700;
+    color: rgb(15, 23, 42);
+}
+
+.text {
+    color: rgb(15, 23, 42);
+    font-weight: 550;
+    margin-bottom: 0.5rem;
+}
+
+.icon {
+    color: green;
+    font-size: 20px;
+}
+
+.linkSignUp {
+    text-decoration: none;
+    font-size: 16.5px;
+    font-weight: 600;
+    color: rgb(120, 53, 15);
+    border: 2px solid rgb(120, 53, 15);
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layer1 {
+    width: 27rem;
+    height: 20rem;
+    position: absolute;
+    z-index: 999999;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 6rem;
+    background-color: rgba(255, 255, 0, 0);
+}
+
+.photo1 {
+    width: 5rem;
+    height: 5rem;
+}
+
+.layer2 {
+    position: relative;
+    background-color: rgba(94, 255, 0, 0);
+    z-index: 99999;
+}
+
+.videoPhoto {
+    width: 43rem;
+}
+
+.layer3 {
+    width: 27rem;
+    height: 20rem;
+    position: absolute;
+    z-index: 9999;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 12rem;
+    margin-left: 22.5rem;
+    background-color: rgba(0, 200, 255, 0);
+}
+
+.photo3 {
+    width: 12.5rem;
+    height: 12.5rem;
+}
+
+.layer4 {
+    width: 27rem;
+    height: 20rem;
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 7rem;
+    margin-left: 3rem;
+    background-color: rgba(255, 251, 0, 0);
+}
+
+.photo4 {
+    width: 5rem;
+    height: 5rem;
+}
+
+.layer5 {
+    width: 35rem;
+    height: 39rem;
+    position: absolute;
+    z-index: 99;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: rgba(0, 128, 0, 0);
+}
+
+.photo5 {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.layer6 {
+    width: 50rem;
+    height: 45rem;
+    position: absolute;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo6 {
+    width: 45rem;
+    height: 45rem;
+}
+
+.layer7 {
+    width: 35rem;
+    height: 25rem;
+    position: absolute;
+    z-index: 9;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 5rem;
+}
+
+.photo7 {
+    width: 5rem;
+    height: 5rem;
+}
