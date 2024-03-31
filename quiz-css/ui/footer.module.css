@@ -1,6 +1,6 @@
 .footer {
     width: 100%;
-    height: 35rem;
+    min-height: 35rem;
     background-color: rgb(15, 23, 42);
     display: flex;
     flex-direction: column;
@@ -10,6 +10,7 @@
 
 .up {
     width: 90%;
+    margin-top: 3rem;
 }
 
 .title {
@@ -106,4 +107,50 @@
     align-items: center;
     margin: 0;
     padding: 0;
+}
+
+.prod,
+.sol,
+.sup,
+.app {
+    padding: 1rem;
+    align-items: center;
+}
+
+@media screen and (max-width: 1399px) {
+    .title {
+        text-align: center;
+    }
+
+    .li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .link {
+        width: 100%;
+        align-items: center;
+    }
+
+    .ulIcons {
+        width: 100%;
+    }
+
+    .copyRight {
+        text-align: center;
+    }
+
+    .pol,
+    .content {
+        justify-content: center;
+    }
+
+    .ulPolicy {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .iconLink {
+        font-size: 15px;
+    }
 }

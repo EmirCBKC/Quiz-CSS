@@ -56,11 +56,11 @@ const Slider = () => {
     return (
         <div className={Style.container}>
             <Row>
-                <Col xxl={6} xl={4} lg={4} md={3} sm={4} xs={8} className={Style.left}>
+                <Col xxl={6} xl={6} lg={12} md={12} sm={12} xs={12} className={Style.left}>
                     <h2 className={Style.title}>Because they love us</h2>
                 </Col>
 
-                <Col xxl={6} xl={4} lg={4} md={3} sm={4} xs={8} className={Style.right}>
+                <Col xxl={6} xl={6} lg={6} md={3} sm={4} xs={8} className={Style.right}>
                     <button className={Style.btn} onClick={handlePrev}><FaArrowLeft /></button>
                     <button className={Style.btn} onClick={handleNext}><FaArrowRight /></button>
                 </Col>

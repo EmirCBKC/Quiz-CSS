@@ -8,11 +8,22 @@
     align-items: center;
 }
 
+.row {
+    width: 100%;
+    justify-content: center;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .background {
     position: absolute;
     z-index: 9;
-    width: 90rem;
-    height: 45rem;
+    width: auto;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,4 +112,56 @@
     font-weight: 600;
     color: white;
     margin: 0;
+}
+
+@media screen and (max-width: 1497px) {
+    .photo {
+        width: 100%;
+        height: 40rem;
+    }
+
+    .content {
+        width: 60rem;
+        height: 40rem;
+    }
+
+    .popup {
+        width: 20rem;
+        height: 40rem;
+    }
+
+    .box {
+        width: 65rem;
+    }
+}
+
+@media screen and (max-width: 1125px) {
+    .content {
+        width: 80rem;
+        height: 10rem;
+    }
+
+    .popup {
+        width: 5rem;
+        height: 40rem;
+    }
+
+    .box {
+        width: 40rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .box2 {
+        width: auto;
+    }
+
+
+    .number {
+        font-size: 70px;
+    }
+
+    .text {
+        font-size: 40px;
+    }
 }

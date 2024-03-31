@@ -12,7 +12,7 @@ export default function Header() {
 
             <div className={Style.content}>
                 <Row className={Style.upRow}>
-                    <Col xxl={6} xl={4} lg={4} md={3} sm={4} xs={8} className={Style.collectible}>
+                    <Col xxl={6} xl={11} lg={11} md={11} sm={12} xs={12} className={Style.collectible}>
                         <h2 className={Style.title}>Collectible Sneakers</h2>
                         <p className={Style.collectibleText}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ad sed
                             alias doloribus, tempore error molestias deserunt labore aliquam culpa autem
@@ -24,7 +24,7 @@ export default function Header() {
                         </div>
                     </Col>
 
-                    <Col xxl={5} xl={4} lg={4} md={3} sm={4} xs={8} className={Style.sneaker}>
+                    <Col xxl={5} xl={11} lg={11} md={11} sm={12} xs={12} className={Style.sneaker}>
                         <div className={Style.background}>
 
                         </div>
@@ -36,7 +36,7 @@ export default function Header() {
                 </Row>
 
                 <Row className={Style.downRow}>
-                    <Col xxl={3} xl={4} lg={4} md={3} sm={4} xs={8} className={Style.box}>
+                    <Col xxl={3} xl={9} lg={9} md={10} sm={11} xs={12} className={Style.box}>
                         <div className={Style.images}>
                             <div className={Style.back}>
                                 <Image className={Style.photo1_1} src="/header/Rectangle25.png" width={500} height={500} quality={99} alt="shoe" />
@@ -53,7 +53,7 @@ export default function Header() {
                         </p>
                     </Col>
 
-                    <Col xxl={3} xl={4} lg={4} md={3} sm={4} xs={8} className={Style.box}>
+                    <Col xxl={3} xl={9} lg={9} md={10} sm={11} xs={12} className={Style.box}>
                         <div className={Style.images}>
                             <div className={Style.back}>
                                 <Image className={Style.photo2_1} src="/header/Rectangle26.png" width={500} height={500} quality={99} alt="shoe" />
@@ -70,7 +70,7 @@ export default function Header() {
                         </p>
                     </Col>
 
-                    <Col xxl={3} xl={4} lg={4} md={3} sm={4} xs={8} className={Style.box}>
+                    <Col xxl={3} xl={9} lg={9} md={10} sm={11} xs={12} className={Style.box}>
                         <div className={Style.images}>
                             <div className={Style.back}>
                                 <Image className={Style.photo3_1} src="/header/Rectangle27.png" width={500} height={500} quality={99} alt="shoe" />

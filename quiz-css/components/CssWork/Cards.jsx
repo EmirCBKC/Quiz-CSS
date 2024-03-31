@@ -11,17 +11,17 @@ export default function Cards() {
     return (
         <div className={Style.container}>
             <Row className={Style.upRow}>
-                <Col xxl={6} xl={4} lg={4} md={3} sm={4} xs={8} className={Style.bestCol}>
+                <Col xxl={6} xl={9} lg={9} md={11} sm={12} xs={12} className={Style.bestCol}>
                     <h2 className={Style.bestOfTitle}>The best of best</h2>
                 </Col>
 
-                <Col xxl={6} xl={4} lg={4} md={3} sm={4} xs={8} className={Style.signUpCol}>
+                <Col xxl={6} xl={9} lg={9} md={11} sm={12} xs={12} className={Style.signUpCol}>
                     <Link href="/signup" className={Style.linkSignUp}>Sign up now</Link>
                 </Col>
             </Row>
 
             <Row className={Style.downRow}>
-                <Col xxl={4} xl={4} lg={4} md={3} sm={4} xs={8} className={Style.cardSide}>
+                <Col xxl={4} xl={9} lg={9} md={10} sm={11} xs={12} className={Style.cardSide}>
                     <div className={Style.back}>
                         <Image className={Style.backPhoto} src="/cards/Rectangle4.png" width={500} height={500} quality={99} alt="shoe" />
                     </div>
@@ -39,7 +39,7 @@ export default function Cards() {
                     </Card>
                 </Col>
 
-                <Col xxl={4} xl={4} lg={4} md={3} sm={4} xs={8} className={Style.cardSide}>
+                <Col xxl={4} xl={9} lg={9} md={10} sm={11} xs={12} className={Style.cardSide}>
                     <div className={Style.back2}>
                         <div className={Style.up}>
                             <Image className={Style.backPhoto1} src="/cards/Rectangle2.png" width={500} height={500} quality={99} alt="shoe" />
@@ -63,7 +63,7 @@ export default function Cards() {
                     </Card>
                 </Col>
 
-                <Col xxl={4} xl={4} lg={4} md={3} sm={4} xs={8} className={Style.cardSide}>
+                <Col xxl={4} xl={9} lg={9} md={10} sm={11} xs={12} className={Style.cardSide}>
                     <div className={Style.back3}>
                         <div className={Style.up3}>
                             <Image className={Style.backPhoto3} src="/cards/Rectangle5.png" width={500} height={500} quality={99} alt="shoe" />

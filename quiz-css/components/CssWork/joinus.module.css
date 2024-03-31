@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    height: 50rem;
+    min-height: 50rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,4 +172,151 @@
 .photo7 {
     width: 5rem;
     height: 5rem;
+}
+
+@media screen and (max-width: 1399px) {
+    .container {
+        min-height: 80rem;
+        align-items: flex-start;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .container {
+        min-height: 40rem;
+    }
+
+
+    .left {
+        height: 18rem;
+    }
+
+    .videoPhoto {
+        width: 28rem;
+        height: 20rem;
+    }
+
+    .layer1 {
+        width: 19rem;
+        height: 12rem;
+    }
+
+    .layer3 {
+        width: 12rem;
+        height: 11rem;
+    }
+
+    .layer4 {
+        width: 12rem;
+        height: 11rem;
+    }
+
+    .layer5 {
+        width: 25rem;
+        height: 27rem;
+    }
+
+    .layer6 {
+        width: 20rem;
+        height: 15rem;
+    }
+
+    .photo6 {
+        width: 30rem;
+        height: 30rem;
+    }
+
+    .layer7 {
+        width: 22rem;
+        height: 16rem;
+    }
+}
+
+@media screen and (max-width: 588px) {
+    .container {
+        min-height: 35rem;
+        padding: 0.5rem;
+        margin-top: 2rem;
+    }
+
+    .left {
+        z-index: 9999;
+    }
+
+    .right {
+        z-index: 999;
+    }
+
+    .videoPhoto {
+        width: 18rem;
+        height: 11rem;
+    }
+
+    .layer1 {
+        width: 12rem;
+        height: 4rem;
+    }
+
+    .photo1 {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .layer3 {
+        width: auto;
+        height: auto;
+        margin-top: 7rem;
+        margin-left: 15rem;
+    }
+
+    .photo3 {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .layer4 {
+        width: 9rem;
+        height: 2rem;
+    }
+
+    .photo4 {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .layer5 {
+        width: 13rem;
+        height: 14rem;
+    }
+
+    .photo5 {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .layer6 {
+        width: 20rem;
+        height: 15rem;
+    }
+
+    .photo6 {
+        width: 17rem;
+        height: 15rem;
+    }
+
+    .layer7 {
+        width: 12rem;
+        height: 9rem;
+    }
+
+    .photo7 {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
 }

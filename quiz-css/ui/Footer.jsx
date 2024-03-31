@@ -11,7 +11,7 @@ export default function Footer() {
     return (
         <footer className={Style.footer}>
             <Row className={Style.up}>
-                <Col xxl={3} xl={4} lg={4} md={3} sm={4} xs={8} className={Style.prod}>
+                <Col xxl={3} xl={6} lg={6} md={12} sm={12} xs={12} className={Style.prod}>
                     <div>
                         <h4 className={Style.title}>Product</h4>
                         <ul className={Style.ul}>
@@ -34,7 +34,7 @@ export default function Footer() {
                     </div>
                 </Col>
 
-                <Col xxl={3} xl={4} lg={4} md={3} sm={4} xs={8} className={Style.sol}>
+                <Col xxl={3} xl={6} lg={6} md={12} sm={12} xs={12} className={Style.sol}>
                     <div>
                         <h4 className={Style.title}>Solutions</h4>
                         <ul className={Style.ul}>
@@ -57,7 +57,7 @@ export default function Footer() {
                     </div>
                 </Col>
 
-                <Col xxl={3} xl={4} lg={4} md={3} sm={4} xs={8} className={Style.sup}>
+                <Col xxl={3} xl={6} lg={6} md={12} sm={12} xs={12} className={Style.sup}>
                     <div>
                         <h4 className={Style.title}>Support</h4>
                         <ul className={Style.ul}>
@@ -80,7 +80,7 @@ export default function Footer() {
                     </div>
                 </Col>
 
-                <Col xxl={3} xl={4} lg={4} md={3} sm={4} xs={8} className={Style.app}>
+                <Col xxl={3} xl={6} lg={6} md={12} sm={12} xs={12} className={Style.app}>
                     <div className={Style.links}>
                         <h4 className={Style.title}>Get the App</h4>
                         <Link className={Style.link} href="/app-store">
@@ -119,11 +119,11 @@ export default function Footer() {
             <div className={Style.border}></div>
 
             <Row className={Style.down}>
-                <Col xxl={6} xl={4} lg={4} md={3} sm={4} xs={8} className={Style.cop}>
+                <Col xxl={6} xl={12} lg={12} md={12} sm={12} xs={12} className={Style.cop}>
                     <p className={Style.copyRight}>Collers @ 2023. All rights reserved.</p>
                 </Col>
 
-                <Col xxl={6} xl={4} lg={4} md={3} sm={4} xs={8} className={Style.pol}>
+                <Col xxl={6} xl={12} lg={12} md={12} sm={12} xs={12} className={Style.pol}>
                     <div className={Style.content}>
                         <ul className={Style.ulPolicy}>
                             <li className={Style.li}>

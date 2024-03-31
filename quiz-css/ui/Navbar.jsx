@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { HiMiniBars3BottomRight } from "react-icons/hi2";
 import Style from "./navbar.module.css";
 
 export default function Navbar() {
@@ -7,6 +8,10 @@ export default function Navbar() {
         <nav className={Style.nav}>
             <div className={Style.left}>
                 <Link className={Style.logo} href="/css-calismasi">Collers</Link>
+            </div>
+
+            <div className={Style.bars}>
+                <button className={Style.btn}><HiMiniBars3BottomRight className={Style.icon} /></button>
             </div>
 
             <div className={Style.right}>

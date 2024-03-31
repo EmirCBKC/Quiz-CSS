@@ -39,7 +39,7 @@ export default function GrowYourCollection() {
     return (
         <div className={Style.container}>
             <Row className={Style.row}>
-                <Col xxl={10} xl={4} lg={4} md={3} sm={4} xs={8} className={Style.up}>
+                <Col xxl={11} xl={11} lg={11} md={11} sm={11} xs={11} className={Style.up}>
                     <h2 className={Style.title}>Grow your collection</h2>
                     <p className={Style.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, itaque ducimus
                         inventore excepturi numquam fuga consequatur, libero accusantium, illo

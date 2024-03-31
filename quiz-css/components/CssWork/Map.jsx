@@ -35,8 +35,8 @@ export default function Map() {
 
     return (
         <div className={Style.container}>
-            <Row>
-                <Col xxl={11} xl={4} lg={4} md={3} sm={4} xs={8} className={Style.left}>
+            <Row className={Style.row}>
+                <Col xxl={11} xl={11} lg={11} md={11} sm={11} xs={11} className={Style.col}>
                     <div className={Style.background}>
                         <Image className={Style.photo} src="/map/chart.png" width={1050} height={635} quality={99} alt="shape" />
                     </div>

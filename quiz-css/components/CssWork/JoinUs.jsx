@@ -9,17 +9,19 @@ export default function JoinUs() {
     return (
         <div className={Style.container}>
             <Row className={Style.row}>
-                <Col xxl={4} xl={4} lg={4} md={3} sm={4} xs={8} className={Style.left}>
+                <Col xxl={4} xl={12} lg={12} md={12} sm={12} xs={12} className={Style.left}>
                     <div className={Style.content}>
                         <h2 className={Style.title}>Why join us</h2>
-                        <p className={Style.text}><BiCheck className={Style.icon} /> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                        <p className={Style.text}><BiCheck className={Style.icon} /> Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-                        <p className={Style.text}><BiCheck className={Style.icon} /> Lorem ipsum, dolor sit amet consectetur.</p>
+                        <div>
+                            <p className={Style.text}><BiCheck className={Style.icon} /> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                            <p className={Style.text}><BiCheck className={Style.icon} /> Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                            <p className={Style.text}><BiCheck className={Style.icon} /> Lorem ipsum, dolor sit amet consectetur.</p>
+                        </div>
                         <Link href="/signup" className={Style.linkSignUp}>Sign up now</Link>
                     </div>
                 </Col>
 
-                <Col xxl={7} xl={4} lg={4} md={3} sm={4} xs={8} className={Style.right}>
+                <Col xxl={7} xl={12} lg={12} md={12} sm={12} xs={12} className={Style.right}>
                     <div className={Style.layer1}>
                         <Image className={Style.photo1} src="/joinus/Rectangle5.png" width={500} height={500} quality={99} alt="shape" />
                     </div>

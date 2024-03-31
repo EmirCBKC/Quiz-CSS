@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    height: 60rem;
+    min-height: 60rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -125,4 +125,115 @@
 .photo3 {
     width: 55rem;
     height: 29rem;
+}
+
+@media screen and (max-width: 1737px) {
+    .row2 {
+        flex-direction: column;
+    }
+
+    .left {
+        width: 100%;
+        height: 10rem;
+        flex-direction: row;
+    }
+
+    .right {
+        height: auto;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1278px) {
+
+    .left {
+        overflow: auto;
+    }
+
+    .title,
+    .text {
+        text-align: center;
+    }
+
+    .btn {
+        font-size: 18px;
+        padding: 0.5rem;
+    }
+
+    .layer1 {
+        width: 10rem;
+        height: 20rem;
+        margin-top: 0;
+        margin-left: 25rem;
+    }
+
+    .photo1 {
+        width: 13rem;
+        height: 9rem;
+    }
+
+    .layer2 {
+        width: 32rem;
+        height: 20rem;
+        margin-left: 10rem;
+        margin-top: 0;
+    }
+
+    .photo2 {
+        width: 30rem;
+        height: 15rem;
+    }
+
+    .layer3 {
+        width: 32rem;
+        height: 20rem;
+    }
+
+    .photo3 {
+        width: 30rem;
+        height: 15rem;
+    }
+}
+
+@media screen and (max-width: 585px) {
+
+    .left {
+        height: 6.5rem;
+    }
+
+    .btn {
+        font-size: 17px;
+    }
+
+    .layer1 {
+        width: 10rem;
+        height: 14rem;
+        margin-left: 12rem;
+    }
+
+    .photo1 {
+        width: 7rem;
+        height: 6rem;
+    }
+
+    .layer2 {
+        width: 20rem;
+        height: 13rem;
+    }
+
+    .photo2 {
+        width: 20rem;
+        height: 10rem;
+    }
+
+    .layer3 {
+        width: 20rem;
+        height: 17rem;
+    }
+
+    .photo3 {
+        width: 20rem;
+        height: 10rem;
+    }
 }

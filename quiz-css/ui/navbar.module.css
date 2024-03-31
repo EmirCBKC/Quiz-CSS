@@ -1,7 +1,8 @@
 .nav {
-    width: 98rem;
+    width: 80%;
     height: 5rem;
     display: flex;
+    justify-content: space-between;
 }
 
 .left {
@@ -21,7 +22,7 @@
 }
 
 .right {
-    width: 50%;
+    width: 50rem;
     margin-top: 1rem;
 }
 
@@ -47,4 +48,43 @@
     border: 2px solid rgb(120, 53, 15);
     border-radius: 10px;
     padding: 1rem;
+}
+
+.bars {
+    display: none;
+}
+
+@media screen and (max-width: 1440px) {
+    .right {
+        width: 70rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .right {
+        display: none;
+    }
+
+    .bars {
+        width: auto;
+        height: auto;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn {
+        background: none;
+        border: none;
+    }
+
+    .btn:hover {
+        cursor: pointer;
+    }
+
+    .icon {
+        font-size: 25px;
+        color: rgb(120, 53, 15);
+    }
 }
